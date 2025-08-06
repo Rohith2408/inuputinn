@@ -103,12 +103,14 @@
     bottom: 0;
     left: 0;
     transform: scaleX(-1);
+    animation: bunny2 10s infinite;
   }
 
   .penguin3{
     position: absolute;
     bottom: 0;
     right: 0;
+    animation: bunny 10s infinite;
   }
 
   .whitehouse{
@@ -201,7 +203,7 @@
     }
 
     .penguin3{
-        content: url('../images/Section1/s.gif');
+        content: url('../images/Section1/nuclear.gif');
         /* top:-3%; */
         height:100px;
         object-fit: contain;
@@ -285,7 +287,7 @@
     }
 
     .penguin3{
-        content: url('../images/Section1/s.gif');
+        content: url('../images/Section1/nuclear.gif');
         /* top:-3%; */
         height:200px;
         object-fit: contain;
@@ -367,7 +369,7 @@
     }
 
     .penguin3{
-        content: url('../images/Section1/s.gif');
+        content: url('../images/Section1/nuclear.gif');
         /* top:-3%; */
         height:300px;
         object-fit: contain;
@@ -450,7 +452,7 @@
     }
 
     .penguin3{
-        content: url('../images/Section1/s.gif');
+        content: url('../images/Section1/nuclear.gif');
         /* top:-3%; */
         height:300px;
         object-fit: contain;
@@ -463,15 +465,30 @@
 
   }
 
-  @keyframes bunny {
+
+
+  @keyframes bunny2 {
     0%{
-        transform: translateY(0);
+        top:100%
     }
     50%{
-        transform: translateY(100%);
+        top:0
     }
     100%{
-        transform: translateY(0);
+        top:100%
+    }
+  }
+
+
+  @keyframes bunny {
+    0%{
+        top:0
+    }
+    50%{
+        top:100%
+    }
+    100%{
+        top:0
     }
   }
 
