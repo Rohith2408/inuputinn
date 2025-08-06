@@ -1,0 +1,477 @@
+.mainwrapper{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #ffecd3;
+}
+  
+  .subwrapper{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    padding:10px;
+  }
+
+  .socialWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialicons{
+    object-fit: contain;
+    height: auto;
+  }
+
+  .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* width: 100%;
+    height:100%; */
+    box-sizing: border-box;
+    position: relative;
+    align-self: flex-start;
+  }
+
+  .title{
+    color: #ffecd3;
+    font-family: "comictoon";
+    margin: 0;
+    -webkit-text-stroke: 5px black;
+    /* background-color: #ffecd3;
+    border-radius: 100px; */
+  }
+
+  .caHeading,.ca{
+    margin: 0;
+    color: black;
+    font-family:"comicjungleextrude";
+  }
+
+  .ca{
+    font-family:"Patrick Hand";
+  }
+
+  .cawrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffecd3;
+    border-radius: 100px;
+    border: 2px solid;
+  }
+
+  .banner{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    object-fit:cover;
+    z-index: 1;
+    top: 0%;
+  }
+
+  .subtitle{
+    font-family: var(--font-bubbler);
+    color: white;
+    margin: 0px;
+  }
+
+  .penguin{
+    position: absolute;
+    bottom: 0;
+    /* animation: bunny 2s infinite; */
+  }
+
+  .penguin2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(-1);
+  }
+
+  .penguin3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .whitehouse{
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+
+  .copyWrapper{
+    margin: 0;
+    background-color: transparent;
+    border: none;
+  }
+
+  /* .ca{
+    max-width: 75%;
+  } */
+
+  @media screen and (max-width:500px) {
+
+    .mainwrapper{
+        max-height: 550px;
+        min-height: 530px;
+        background-image: url("../images/Section1/bg.png");
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+    }
+
+    .body{
+        padding-top:50px;
+        gap:25px;
+        justify-content: center;
+    }
+
+    .banner{
+        top:92%;
+        height:40px;
+    }
+    
+    .socialWrapper{
+        gap: 14px;
+    }
+
+    .socialicons{
+        width: 24px;
+        border-radius: 100px;
+    }
+
+    .subtitle{
+        font-size: 40px;
+    }
+
+    .cawrapper{
+        padding:10px;
+        gap: 10px;
+    }
+
+    .caHeading,.ca{
+        font-size:12px;
+    }
+
+    .copyIcon{
+        width:12px;
+        height: auto;
+    }
+
+    .title{
+        font-size:70px;
+        -webkit-text-stroke: 3px black;
+    }
+
+    .penguin{
+        content: url('../images/Section1/gif-3.gif');
+        /* top:-3%; */
+        height:300px;
+        object-fit: contain;
+    }
+
+    .penguin2{
+        content: url('../images/Section1/s.gif');
+        /* top:-3%; */
+        height:100px;
+        object-fit: contain;
+    }
+
+    .penguin3{
+        content: url('../images/Section1/s.gif');
+        /* top:-3%; */
+        height:100px;
+        object-fit: contain;
+    }
+
+    .whitehouse{
+        width:500px;
+        object-fit: contain;
+    }
+
+  }
+
+  @media screen and (min-width:501px) and (max-width:1023px) {
+
+    .mainwrapper{
+        max-height: 880px;
+        min-height: 800px;
+        background-image: url("../images/Section1/bg.png");
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+    }
+
+    .body{
+        padding-top:100px;
+        gap:25px;
+        justify-content: center;
+    }
+
+    .banner{
+        top:92%;
+        height:75px;
+    }
+    
+    .socialWrapper{
+        gap: 30px;
+    }
+
+    .socialicons{
+        width:40px;
+        border-radius: 100px;
+    }
+
+    .subtitle{
+        font-size: 30px;
+    }
+
+    .cawrapper{
+        padding:14px;
+        gap: 10px;
+    }
+
+    .caHeading,.ca{
+        font-size:24px;
+    }
+
+    .copyIcon{
+        width:14px;
+        height: auto;
+    }
+
+    .title{
+        font-size:110px;
+        -webkit-text-stroke: 3px black;
+    }
+
+    .penguin{
+        content: url('../images/Section1/gif-3.gif');
+        /* top:0%; */
+        height:450px;
+        object-fit: contain;
+    }
+
+    .penguin2{
+        content: url('../images/Section1/s.gif');
+        /* top:-3%; */
+        height:200px;
+        object-fit: contain;
+    }
+
+    .penguin3{
+        content: url('../images/Section1/s.gif');
+        /* top:-3%; */
+        height:200px;
+        object-fit: contain;
+    }
+
+    .whitehouse{
+        width: 800px;
+        object-fit: contain;
+    }
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1920px) {
+
+    .mainwrapper{
+        max-height: 980px;
+        min-height: 900px;
+        background-image: url("../images/Section1/bg.png");
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+    }
+
+    .body{
+        padding-top:20px;
+        gap:25px;
+        justify-content: center;
+    }
+
+    .banner{
+        /* top:92%; */
+        height: 150px;
+    }
+    
+    .socialWrapper{
+        gap: 40px;
+    }
+
+    .socialicons{
+        width:44px;
+        border-radius: 100px;
+    }
+
+    .subtitle{
+        font-size: 50px;
+    }
+
+    .cawrapper{
+        padding:16px;
+        gap: 10px;
+    }
+
+    .caHeading,.ca{
+        font-size:30px;
+    }
+
+    .copyIcon{
+        width:20px;
+        height: auto;
+    }
+
+    .title{
+        font-size:200px;
+    }
+
+    .penguin{
+        content: url('../images/Section1/gif-3.gif');
+        /* top:-8%; */
+        height:520px;
+        object-fit: contain;
+    }
+
+    .penguin2{
+        content: url('../images/Section1/s.gif');
+        /* top:-3%; */
+        height:300px;
+        object-fit: contain;
+    }
+
+    .penguin3{
+        content: url('../images/Section1/s.gif');
+        /* top:-3%; */
+        height:300px;
+        object-fit: contain;
+    }
+
+    .whitehouse{
+        width: 1500px;
+        object-fit: contain;
+    }
+
+  }
+
+  @media screen and (min-width:1921px){
+
+    .mainwrapper{
+        max-height: 1180px;
+        min-height: 1280px;
+        background-image: url("../images/Section1/bg.png");
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+    }
+
+    .body{
+        padding-top: 50px;
+        gap:25px;
+        justify-content: flex-end;
+    }
+
+    .banner{
+        top:92%;
+        height: 200px;
+    }
+    
+    .socialWrapper{
+        gap: 60px;
+    }
+
+    .socialicons{
+        width:60px;
+        border-radius: 100px;
+    }
+
+    .subtitle{
+        font-size: 50px;
+    }
+
+    .cawrapper{
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .caHeading,.ca{
+        font-size:40px;
+    }
+
+    .copyIcon{
+        width:26px;
+        height: auto;
+    }
+
+    .title{
+        font-size:240px;
+    }
+
+    .penguin{
+        content: url('../images/Section1/gif-3.gif');
+        /* top:-10%; */
+        height:600px;
+        object-fit: contain;
+    }
+
+    .penguin2{
+        content: url('../images/Section1/s.gif');
+        /* top:-3%; */
+        height:300px;
+        object-fit: contain;
+    }
+
+    .penguin3{
+        content: url('../images/Section1/s.gif');
+        /* top:-3%; */
+        height:300px;
+        object-fit: contain;
+    }
+
+    .whitehouse{
+        width: 2000px;
+        object-fit: contain;
+    }
+
+  }
+
+  @keyframes bunny {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+  }
+

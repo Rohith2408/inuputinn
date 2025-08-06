@@ -1,0 +1,405 @@
+.mainwrapper{
+  width:100vw;
+  height:100vh;
+  background-image:url("../images/Footer/bg.png");
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.subwrapper{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 20px; */
+  position: relative;
+}
+
+.title{
+  height: 20%;
+  font-family:"comictoon";
+  color: white;
+  text-shadow:0px 10px black;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line{
+  height: 1px;
+  width: 75%;
+  background-color: white;
+}
+
+.body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-image: url("../images/Footer/banner.png");
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  gap: 5%;
+  margin-top: 10%;
+}
+
+.description1wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 10%;
+}
+
+.description2wrapper{
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 12%;
+  gap: 3%;
+}
+
+.description3wrapper{
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 12%;
+  gap: 3%;
+}
+
+.description1{
+  font-family: "comictoon";
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 40%;
+  box-sizing: border-box;
+  margin: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buymarv{
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "comictoon";
+  /* margin: 10px;
+  box-sizing: border-box; */
+}
+
+.contractaddwrapper{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.contractadd{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  font-family: "comictoon";
+  border: none;
+}
+
+.copyiconwrapper{
+  /* margin:10px; */
+  width: 5%;
+  box-sizing:border-box;
+  border:none;
+  border-radius:10px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.marvtext{
+  font-family:"Patrick Hand";
+  color: white;
+}
+
+.jointext{
+  font-family: "Patrick Hand";
+  color: white;
+}
+
+.metricstitle,.gopolatitle{
+  font-family: var(--font-pure-joy);
+  color: white;
+}
+
+.metricslist,.gopolalist{
+  font-family: "Patrick Hand";
+  color: white;
+}
+
+.socialicons{
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.gotohome{
+  position: absolute;
+  font-family: 'Bangers';
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  left: 100%;
+  transform: translate(-100%, 0px);
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.gotohomeimg{
+  left: 100%;
+}
+
+.gotohomeimgwrapper{
+  transform: rotate(-90deg);
+}
+
+.contractadd{
+  font-family: "comictoon";
+  
+}
+
+@media screen and (max-width:500px) {
+  .title{
+    font-size: 50px;
+  }
+
+  .mainwrapper{
+    max-height: 350px;
+    min-height: 330px;
+    min-width: 320px;
+  }
+
+  .subwrapper{
+    min-width: 320px;
+  }
+
+  .marvtext{
+    font-size: 30px;
+  }
+
+  .jointext{
+    font-size: 14px;
+  }
+
+  .contractadd{
+    font-size: 16px;
+  }
+
+  .socialicons{
+    height: 15px;
+    width: 15px
+  }
+
+  .metricstitle,.gopolatitle{
+    font-size: 18px;
+    font-family: var(--font-pure-joy);
+  }
+
+  .metricslist,.gopolalist{
+    font-size: 14px;
+  }
+
+  .gotohome{
+    /* left: 75%; */
+    top: 60%;
+    font-size: 18px;
+  }
+
+  .gotohomeimg{
+    width: 30px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .contractadd{
+    font-size: 20px;
+  }
+
+  .buymarv{
+    font-size: 20px;
+  }
+  
+}
+
+@media screen and (min-width:501px) and (max-width:1024px) {
+  .title{
+    font-size: 90px;
+  }
+
+  .mainwrapper{
+    max-height:500px;
+    min-height:400px;
+  }
+
+  .subwrapper{
+    max-width: 2000px;
+  }
+
+  .body{
+    
+
+  }
+
+  .description1{
+    font-size: 20px;
+  }
+
+  .description2wrapper{
+    font-size: 24px;
+  }
+
+  .marvtext{
+    font-size: 45px;
+  }
+
+  .jointext{
+    font-size: 16px;
+  }
+
+  .metricstitle,.gopolatitle{
+    font-size: 20px;
+    font-family: var(--font-pure-joy);
+  }
+
+  .metricslist,.gopolalist{
+    font-size: 16px;
+  }
+
+  .contractadd{
+    font-size: 20px;
+  }
+
+  .socialicons{
+    height: 20px;
+    width: 20px;
+  }
+
+  .gotohome{
+    /* left: 80%; */
+    top: 50%;
+    font-size: 22px;
+  }
+
+  .gotohomeimg{
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .contractadd{
+    font-size: 26px;
+  }
+
+  .buymarv{
+    font-size: 26px;
+  }
+
+}
+
+@media screen and (min-width:1025px) {
+    .title{
+      font-size: 140px;
+    }
+
+    .mainwrapper{
+      max-height:900px;
+      min-height:800px;
+    }
+  
+    .subwrapper{
+      max-width: 2000px;
+    }
+
+    .body{
+      
+
+    }
+
+    .description1{
+      font-size: 24px;
+    }
+
+    .description2wrapper{
+      font-size: 24px;
+    }
+
+    .marvtext{
+      font-size: 70px;
+    }
+  
+    .jointext{
+      font-size: 20px;
+    }
+
+    .metricstitle,.gopolatitle{
+      font-size: 28px;
+      font-family: var(--font-pure-joy);
+    }
+
+    .metricslist,.gopolalist{
+      font-size: 24px;
+    }
+
+    .contractadd{
+      font-size: 34px;
+    }
+
+    .socialicons{
+      height:32px;
+      width: 32px;
+    }
+
+    .gotohome{
+      /* left: 85%; */
+      top: 40%;
+      font-size: 24px;
+    }
+
+    .gotohomeimg{
+      width: 100px;
+      height: auto;
+      object-fit: contain;
+    }
+    
+    .contractadd{
+      font-size: 34px;
+    }
+
+    .buymarv{
+      font-size: 34px;
+    }
+}
+
+
+
+

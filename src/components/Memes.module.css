@@ -1,0 +1,250 @@
+.mainwrapper{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("../images/memes/bg.png"); 
+    /* overflow: hidden; */
+}
+  
+  .subwrapper{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    padding:10px;
+    
+  }
+
+  .body{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height:100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding-top:60px;
+  }
+
+  .banner{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    object-fit:cover;
+    z-index: 1;
+  }
+
+  .titlewrapper{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imageswrapper{
+    display: grid;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+  }
+
+  .image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-color: black;
+    animation: swing 2s infinite ease-in-out;
+    transform-origin: top center; 
+  }
+
+  .bg{
+    object-fit: contain;
+    height: 100%;
+    position: absolute;
+    /* content: url("../images/Section2/bg.png"); */
+  }
+
+  .title{
+    color: #ffecd3;
+    font-family: "comictoon";
+    margin: 0;
+    -webkit-text-stroke: 5px black;
+  }
+
+  @media screen and (max-width:500px) {
+
+    .mainwrapper{
+        max-height:1350px;
+        min-height:1300px;
+        background-image: url("../images/memes/bg.png"); 
+    }
+
+    .body{
+        padding: 30px;
+        gap:25px;
+    }
+
+    .banner{
+        height: 75px;
+    }
+
+    .imageswrapper{
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+    .image{
+        width:190px;
+        border-width: 10px;
+    }
+
+    .title{
+        font-size: 70px;
+        -webkit-text-stroke: 2px black;
+    }
+
+    .banner{
+        height:20px;
+        top: -10px;
+    }
+
+  }
+
+  @media screen and (min-width:501px) and (max-width:1023px) {
+
+    .mainwrapper{
+        max-height:650px;
+        min-height:600px;
+        background-image: url("../images/memes/bg.png"); 
+    }
+
+    .body{
+        padding: 30px;
+        gap:25px;
+    }
+
+    .imageswrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .image{
+        width:150px;
+        border-width: 10px;
+    }
+
+    .title{
+        font-size: 80px;
+        -webkit-text-stroke: 3px black;
+    }
+
+    .banner{
+        height:40px;
+        top: -20px;
+    }
+
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1920px) {
+
+    .mainwrapper{
+      max-height: 1080px;
+      min-height: 1000px;
+      background-image: url("../images/memes/bg.png"); 
+    }
+
+    .body{
+        padding: 100px;
+        gap: 75px;
+    }
+
+    .imageswrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .image{
+        width: 300px;
+        border-width: 10px;
+    }
+
+    .title{
+        font-size: 120px;
+    }
+
+    .banner{
+        height:80px;
+        top: -40px;
+    }
+
+  }
+
+  @media screen and (min-width:1921px){
+
+    .mainwrapper{
+        max-height: 1200px;
+        min-height: 1250px;
+        background-image: url("../images/memes/bg.png");    
+      }
+
+    .subwrapper{
+        max-width: 2200px;
+    }
+
+    .body{
+        padding: 100px;
+        gap: 75px;
+    }
+
+    .imageswrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+    }
+    
+    .image{
+        width:350px;
+        border-width: 10px;
+    }  
+
+    .title{
+        font-size: 140px;
+    }
+
+    .banner{
+        height:110px;
+        top: -55px;
+    }
+
+  }
+
+  @keyframes swing {
+    0% {
+      transform: rotate(3deg);
+    }
+    /* 25% {
+      transform: rotate(5deg);
+    } */
+    50% {
+      transform: rotate(-3deg);
+    }
+    /* 75% {
+      transform: rotate(-5deg);
+    } */
+    100% {
+      transform: rotate(3deg);
+    }
+  }
+
