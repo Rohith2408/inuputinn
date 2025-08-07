@@ -43,7 +43,7 @@ const Section1=()=>{
             <div className={styles.subwrapper}>
                 <div className={styles.body}>
                     {/* <img className={styles.banner} src={banner}/> */}
-                    <p className={styles.title}>$inuPutin</p>
+                    <p className={styles.title}>$INUPUTIN</p>
                     <div className={styles.socialWrapper}>
                     {
                         socialIcons.map((icon) => (
@@ -64,8 +64,10 @@ const Section1=()=>{
                     </div>
                 </div>
                 <img className={styles.penguin}/>
-                <img className={styles.penguin2}/>
-                <img className={styles.penguin3}/>
+                <img className={styles.bomb1}/>
+                <img className={styles.bomb2}/>
+                <img className={styles.bomb3}/>
+                <img className={styles.bomb4}/>
                 {/* <img src={whitehouse_image} className={styles.whitehouse}/> */}
             </div>
         </section>

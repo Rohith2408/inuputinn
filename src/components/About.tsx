@@ -51,10 +51,10 @@ const About=()=>{
         <section ref={elementRef} className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
                 {/* <img className={styles.banner} src={banner}/> */}
-                <div className={styles.image_wrapper}><img src={image} className={styles.image} style={{transform:"translateX(-"+scale.current+"%)"}}/></div>
-                <div className={styles.body_wrapper}>
-                    <p className={styles.title}>The Meme Coin That Goes Nuclear!</p>
-                    <p className={styles.text}>
+                <div className={styles.image_wrapper}><img src={image} className={styles.image} style={{visibility:'hidden'}}/></div>
+                <div className={styles.body_wrapper} style={{backgroundColor:"rgba(0,0,0,0.2)"}}>
+                    <p className={styles.title} style={{color:"white"}}>The Meme Coin That Goes Nuclear!</p>
+                    <p className={styles.text} style={{color:"white"}}>
                     Inuputin is not just another meme coin — it’s a full-scale meme offensive. Born in the rubble of traditional tokens and powered by raw satire, Inuputin aims to nuke the meme coin game with explosions of hype, humor, and high-risk gains.
                     </p>
                 </div>
