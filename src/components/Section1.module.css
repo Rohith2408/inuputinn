@@ -117,7 +117,6 @@
     left: 0;
     transform: scaleX(-1);
     animation: bunny 3s ease-in infinite;
-    animation-delay: 2s;
   }
   .bomb2{
     position: absolute;
@@ -125,21 +124,18 @@
     left: 30%;
     transform: scaleX(-1);
     animation: bunny 3s ease-in infinite;
-    animation-delay: 2s;
   }
   .bomb3{
     position: absolute;
     bottom: 0;
     left: 60%;
     animation: bunny 3s ease-in infinite;
-    animation-delay: 2s;
   }
   .bomb4{
     position: absolute;
     bottom: 0;
     left: 90%;
     animation: bunny 3s  ease-in infinite;
-    animation-delay: 2s;
   }
 
   .whitehouse{
