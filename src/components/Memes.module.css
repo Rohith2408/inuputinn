@@ -78,7 +78,7 @@
   }
 
   .title{
-    color: #D52B1E;
+    color: #D12C04;
     font-family: "TBB";
     margin: 0;
     -webkit-text-stroke: 5px white;
@@ -125,8 +125,8 @@
   @media screen and (min-width:501px) and (max-width:1023px) {
 
     .mainwrapper{
-        max-height:650px;
-        min-height:600px;
+        max-height:750px;
+        min-height:700px;
         /* background-image: url("../images/memes/bg.png");  */
     }
 
@@ -159,8 +159,8 @@
   @media screen and (min-width:1024px) and (max-width:1920px) {
 
     .mainwrapper{
-      max-height: 1080px;
-      min-height: 1000px;
+      max-height: 1180px;
+      min-height: 1100px;
       /* background-image: url("../images/memes/bg.png");  */
     }
 
@@ -193,8 +193,8 @@
   @media screen and (min-width:1921px){
 
     .mainwrapper{
-        max-height: 1200px;
-        min-height: 1250px;
+        max-height: 1300px;
+        min-height: 1350px;
         /* background-image: url("../images/memes/bg.png");     */
       }
 

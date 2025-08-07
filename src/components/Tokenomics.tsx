@@ -23,7 +23,7 @@ const Tokenomics=()=>{
     const screen=useScreen();
 
     return(
-        <section className="tkn-mainwrapper flexbox padding-wrapper">
+        <section className="tkn-mainwrapper flexbox-column padding-wrapper">
             <div className="flexbox-column fullwidth">
                 <span className={"tkn-title"}>Tokenomics</span>
                 <div className="flexbox-column fullwidth" style={{padding:(screen=="laptop"||screen=="pc")?"100px":"20px"}}>
