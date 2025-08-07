@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: center;
     background-repeat:no-repeat;
-    background-image: url("../images/About/bg.png");
     background-size: cover;
     position: relative;
     /* overflow: hidden; */
@@ -107,6 +106,7 @@
     .mainwrapper{
         /* max-height: 740px; */
         min-height: 700px;
+        background-image: url("../images/About/bg_mobile.png");
     }
 
     .subwrapper{
@@ -171,6 +171,7 @@
     .mainwrapper{
         /* max-height: 980px; */
         min-height: 900px;
+        background-image: url("../images/About/bg.png");
     }
 
     .subwrapper{
@@ -235,6 +236,7 @@
     .mainwrapper{
         /* max-height: 880px; */
         min-height: 800px;
+        background-image: url("../images/About/bg.png");
     }
 
     .subwrapper{
@@ -298,6 +300,7 @@
     .mainwrapper{
         /* max-height: 1080px; */
         min-height: 1000px;
+        background-image: url("../images/About/bg.png");
     }
 
     .subwrapper{

@@ -1,7 +1,8 @@
 import styles from "./About.module.css";
 import image from '../images/About/image.png'
 import { useEffect, useRef, useState } from "react";
-import banner from '../images/banner.gif'
+import '../../src/defaults.css'
+import '../../src/resources.css'
 
 const About=()=>{
 
@@ -49,7 +50,7 @@ const About=()=>{
     console.log(dim)
 
     return(
-        <section ref={elementRef} className={styles.mainwrapper} id="section2" data-scroll-to="section2">
+        <section ref={elementRef} className={styles.mainwrapper} id="section2" data-scroll-to="section2" style={{overflow:'hidden'}}>
             <div className={styles.subwrapper+" padding-wrapper"} style={{position:'relative'}}>
                 {/* <img className={styles.banner} src={banner}/> */}
                 <div className={styles.image_wrapper}><img src={image} className={styles.image}/></div>
@@ -61,6 +62,10 @@ const About=()=>{
                 </div>
                 <img className={styles.bomb1}/>
                 <img className={styles.blast}/>
+                <div className="flexbox-column gap flexbox-center padding-wrapper" style={{position:'absolute',top:"5%",right:"5%",backgroundColor:"rgba(0,0,0,0.7)"}}>
+                    <span className={styles.text} style={{color:"white"}}>Version 1.1</span>
+                    <span className={styles.text} style={{color:"white"}}>Update coming soon!</span>
+                </div>
             </div>
         </section>
     )
