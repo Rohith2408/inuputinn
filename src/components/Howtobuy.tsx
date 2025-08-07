@@ -3,7 +3,7 @@ import useScreen from "../useScreen";
 import '../../src/defaults.css'
 import '../../src/resources.css'
 import '../../src/components/Howtobuy.css'
-import img from '../images/z.png'
+import img from '../images/how-to-buy/1-1.png'
 
 export type HowtobuyType = {
   className?: string;
@@ -18,12 +18,12 @@ const Howtobuy: FunctionComponent<HowtobuyType> = () => {
   },[])
 
   return (
-    <section className="htb-mainwrapper flexbox padding-wrapper" id="how-to-buy" data-scroll-to="how-to-buy">
+    <section className="htb-mainwrapper fullwidth flexbox-row padding-wrapper" id="how-to-buy" data-scroll-to="how-to-buy">
       <div className="flexbox-column fullwidth">
           <span className={"htb-title"}>How To Buy</span>
-          <div className="flexbox-column flexbox-column-fit fullwidth padding-wrapper section-gap">
+          <div className="flexbox-column fullwidth padding-wrapper section-gap">
             <div className={`flexbox-${(screen=="laptop"||screen=="pc")?"row":"column"} fullwidth section-gap`}>
-              <div id="1-1" className="htb_card flexbox-row" style={{flex:2}}><img src={img} className="fullwidth img-fit"/></div>
+              <div id="1-1" className="htb_card htb_card_main flexbox-row" style={{flex:2}}><img src={img} className="fullwidth img-fit"/></div>
               <div id="1-2" className="htb_card htb_card_alt flexbox-column flexbox-center" style={{flex:1}}>
                 <span className="htb_label">1</span>
                 <span className="htb_label">Create a Wallet</span>

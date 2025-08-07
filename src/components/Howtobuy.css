@@ -1,6 +1,7 @@
 .htb-mainwrapper{
-  width:100vw;
   background-image: url(../images/bg_red.png);
+  background-position: center;
+  background-size: cover;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -75,14 +76,16 @@
 }
 
 .htb_card_alt{
-  background-color: #163575;
+  background-image: url(../images/how-to-buy/card.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .htb-title{
   color: white;
     font-family: "TBB";
     margin: 0;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 7px #1B3B7C;
 }
 
 .htb_card{

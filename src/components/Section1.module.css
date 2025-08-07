@@ -140,10 +140,10 @@
 
   .blast{
     position: absolute;
-    bottom: 0;
-    left: 0%;
+    bottom: -7%;
+    left: -5%;
     animation:blast 3s  infinite;
-    animation-delay: 2s;
+    animation-delay: 1.7s;
   }
 
   .whitehouse{
@@ -253,7 +253,7 @@
 
     .blast{
         content: url('../images/blast.gif');
-        height:100px;
+        height:170px;
         object-fit: contain;
     }
 
@@ -348,7 +348,7 @@
 
     .blast{
         content: url('../images/blast.gif');
-        height:100px;
+        height:170px;
         object-fit: contain;
     }
 
@@ -410,7 +410,7 @@
     }
 
     .title{
-        font-size:200px;
+        font-size:140px;
     }
 
     .penguin{
@@ -442,7 +442,7 @@
 
     .blast{
         content: url('../images/blast.gif');
-        height:200px;
+        height:300px;
         object-fit: contain;
     }
 
@@ -505,7 +505,7 @@
     }
 
     .title{
-        font-size:240px;
+        font-size:160px;
     }
 
     .penguin{
@@ -537,7 +537,7 @@
 
     .blast{
         content: url('../images/blast.gif');
-        height:200px;
+        height:300px;
         object-fit: contain;
     }
 
