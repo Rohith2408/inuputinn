@@ -1,7 +1,6 @@
-.mainwrapper{
+.htb-mainwrapper{
   width:100vw;
-  /* height:100vh; */
-  background-image: white;
+  background-image: url(../images/bg_red.png);
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -14,14 +13,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 10px 20px; */
   position: relative;
   overflow: hidden;
 }
-
-/* .body{
-  display: flex;
-} */
 
 .frametitle{
   text-align: center;
@@ -84,9 +78,11 @@
   background-color: #163575;
 }
 
-.title{
-  font-family: "comictoon";
-  color: #193574;
+.htb-title{
+  color: white;
+    font-family: "TBB";
+    margin: 0;
+    -webkit-text-stroke: 1px white;
 }
 
 .htb_card{
@@ -110,12 +106,12 @@
 }
 
 @media screen and (max-width:500px) {
-  .title{
+  .htb-title{
     font-size: 60px;
     height: 15%;
   }
 
-  .mainwrapper{
+  .htb-mainwrapper{
     /* max-height: 850px;
     min-height: 700px;
     min-width: 360px; */
@@ -162,12 +158,12 @@
 }
 
 @media screen and (min-width:501px) and (max-width:1024px) {
-  .title{
+  .htb-title{
     font-size: 60px;
     height: 15%;
   }
 
-  .mainwrapper{
+  .htb-mainwrapper{
     /* max-height: 850px;
     min-height: 700px;
     min-width: 360px; */
@@ -215,12 +211,12 @@
 }
 
 @media screen and (min-width:1025px) {
-    .title{
+    .htb-title{
       font-size: 130px;
       height: 30%;
     }
 
-    .mainwrapper{
+    .htb-mainwrapper{
       /* max-height:900px;
       min-height:900px; */
     }

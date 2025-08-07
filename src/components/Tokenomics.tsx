@@ -9,6 +9,7 @@ import banner from '../images/banner.png'
 import suitcase_1 from '../images/Tokenomics/suitcase.png'
 import suitcase_2 from '../images/Tokenomics/suitcase2.png'
 import suitcase_3 from '../images/Tokenomics/suitcase3.png'
+import useScreen from "../useScreen";
 // import bg from '../images/Tokenomics/bg.png'
 
 const Tokenomics=()=>{
@@ -19,14 +20,15 @@ const Tokenomics=()=>{
     //     {title:"0%",subTitle:"Token Distribution",image:image3},
     //     {title:"LP Locked",subTitle:"Contract Renounced",image:image4}
     // ]).current
+    const screen=useScreen();
 
     return(
-        <section className="mainwrapper flexbox padding-wrapper">
+        <section className="tkn-mainwrapper flexbox padding-wrapper">
             <div className="flexbox-column fullwidth">
-                <span className={"title"}>Tokenomics</span>
-                <div className="flexbox-column fullwidth" style={{padding:"100px"}}>
+                <span className={"tkn-title"}>Tokenomics</span>
+                <div className="flexbox-column fullwidth" style={{padding:(screen=="laptop"||screen=="pc")?"100px":"20px"}}>
                     <img src={banner} className="fullwidth img-fit" style={{border:"10px solid black",borderRadius:100}}/>
-                    <div className="flexbox-row fullwidth" style={{alignItems:"flex-start"}}>
+                    <div className={`flexbox-${(screen=="laptop"||screen=="pc")?"row":"column"} fullwidth`} style={{alignItems:"flex-start"}}>
                         <div className="flexbox-row" style={{flex:1}}><img className="fullwidth img-fit" src={suitcase_1}/></div>
                         <div className="flexbox-row" style={{flex:1}}><img className="fullwidth img-fit" src={suitcase_2}/></div>
                         <div className="flexbox-row" style={{flex:1}}><img className="fullwidth img-fit" src={suitcase_3}/></div>

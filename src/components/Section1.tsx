@@ -7,7 +7,6 @@ import dextools_icon from '../images/Section1/dextools.png'
 import copy_icon from '../images/Section1/copy.png'
 import { getAllWebsites } from "../firebase";
 
-
 const Section1=()=>{
 
     const [socialIcons,setSocialIcons]=useState([
@@ -65,9 +64,10 @@ const Section1=()=>{
                 </div>
                 <img className={styles.penguin}/>
                 <img className={styles.bomb1}/>
-                <img className={styles.bomb2}/>
+                {/* <img className={styles.bomb2}/>
                 <img className={styles.bomb3}/>
-                <img className={styles.bomb4}/>
+                <img className={styles.bomb4}/> */}
+                <img className={styles.blast}/>
                 {/* <img src={whitehouse_image} className={styles.whitehouse}/> */}
             </div>
         </section>

@@ -1,6 +1,5 @@
 import styles from "./Memes.module.css";
 import { useRef} from "react";
-
 import image1 from '../images/memes/1.jpg'
 import image2 from '../images/memes/2.jpg'
 import image3 from '../images/memes/3.jpg'

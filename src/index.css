@@ -51,3 +51,9 @@ code {
   src: url("/public/Boldsine.otf");
   font-weight: 400;
 }
+
+@font-face {
+  font-family: "tbb";
+  src: url("/public/TBB.ttf");
+  font-weight: 400;
+}

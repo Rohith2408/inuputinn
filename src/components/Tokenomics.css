@@ -1,14 +1,14 @@
-.mainwrapper{
+.tkn-mainwrapper{
     /* width:100vw;
     height: 100vh;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative; */
     background-repeat:no-repeat;
     background-size: cover;
-    position: relative; */
-    background-image: url("../images/Tokenomics/bg.png"); 
+    background-image: url("../images/bg_sky.png"); 
     /* overflow: hidden; */
 }
   
@@ -80,11 +80,11 @@
     /* content: url("../images/Section2/bg.png"); */
   }
 
-  .title{
-    color: #ffecd3;
-    font-family: "comictoon";
+  .tkn-title{
+    color: #D52B1E;
+    font-family: "TBB";
     margin: 0;
-    -webkit-text-stroke: 5px black;
+    -webkit-text-stroke: 5px white;
   }
 
   .image_title{
@@ -114,10 +114,10 @@
 
   @media screen and (max-width:500px) {
 
-    .mainwrapper{
+    .tkn-mainwrapper{
         /* max-height:1550px;
         min-height:1500px; */
-        background-image: url("../images/memes/bg.png"); 
+        /* background-image: url("../images/memes/bg.png");  */
     }
 
     .body{
@@ -144,9 +144,8 @@
         border-width: 10px;
     }
 
-    .title{
-        font-size: 70px;
-        -webkit-text-stroke: 2px black;
+    .tkn-title{
+        font-size: 50px;
     }
 
     .banner{
@@ -164,10 +163,10 @@
 
   @media screen and (min-width:501px) and (max-width:1023px) {
 
-    .mainwrapper{
+    .tkn-mainwrapper{
         /* max-height:750px;
         min-height:700px; */
-        background-image: url("../images/memes/bg.png"); 
+        /* background-image: url("../images/memes/bg.png");  */
     }
 
     .body{
@@ -191,9 +190,8 @@
         border-width: 10px;
     }
 
-    .title{
+    .tkn-title{
         font-size: 80px;
-        -webkit-text-stroke: 3px black;
     }
 
     .banner{
@@ -211,10 +209,10 @@
 
   @media screen and (min-width:1024px) and (max-width:1920px) {
 
-    .mainwrapper{
+    .tkn-mainwrapper{
       /* max-height: 700px;
       min-height: 720px; */
-      background-image: url("../images/Tokenomics/bg.png"); 
+      /* background-image: url("../images/Tokenomics/bg.png");  */
     }
 
     .body{
@@ -237,7 +235,7 @@
         border-width: 10px;
     }
 
-    .title{
+    .tkn-title{
         font-size: 120px;
         padding-top: 50px;
     }
@@ -265,10 +263,10 @@
 
   @media screen and (min-width:1921px){
 
-    .mainwrapper{
+    .tkn-mainwrapper{
         /* max-height: 1000px;
         min-height: 1050px; */
-        background-image: url("../images/memes/bg.png");    
+        /* background-image: url("../images/memes/bg.png");     */
       }
 
     .subwrapper{
@@ -295,7 +293,7 @@
         border-width: 10px;
     }  
 
-    .title{
+    .tkn-title{
         font-size: 140px;
     }
 

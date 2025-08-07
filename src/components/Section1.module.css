@@ -50,9 +50,9 @@
 
   .title{
     color: #D52B1E;
-    font-family: "comictoon";
+    font-family: "TBB";
     margin: 0;
-    -webkit-text-stroke: 0px #D52B1E;
+    -webkit-text-stroke: 5px white;
   }
 
   .caHeading,.ca{
@@ -138,6 +138,14 @@
     animation: bunny 3s  ease-in infinite;
   }
 
+  .blast{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    animation:blast 3s  infinite;
+    animation-delay: 2s;
+  }
+
   .whitehouse{
     position: absolute;
     bottom: 0;
@@ -214,7 +222,6 @@
 
     .title{
         font-size:70px;
-        -webkit-text-stroke: 3px black;
     }
 
     .penguin{
@@ -241,6 +248,12 @@
     .bomb1,.bomb2,.bomb3,.bomb4{
         content: url('../images/Section1/bomb.png');
         height:70px;
+        object-fit: contain;
+    }
+
+    .blast{
+        content: url('../images/blast.gif');
+        height:100px;
         object-fit: contain;
     }
 
@@ -304,7 +317,6 @@
 
     .title{
         font-size:110px;
-        -webkit-text-stroke: 3px black;
     }
 
     .penguin{
@@ -331,6 +343,12 @@
     .bomb1,.bomb2,.bomb3,.bomb4{
         content: url('../images/Section1/bomb.png');
         height:70px;
+        object-fit: contain;
+    }
+
+    .blast{
+        content: url('../images/blast.gif');
+        height:100px;
         object-fit: contain;
     }
 
@@ -419,6 +437,12 @@
     .bomb1,.bomb2,.bomb3,.bomb4{
         content: url('../images/Section1/bomb.png');
         height:120px;
+        object-fit: contain;
+    }
+
+    .blast{
+        content: url('../images/blast.gif');
+        height:200px;
         object-fit: contain;
     }
 
@@ -511,6 +535,12 @@
         object-fit: contain;
     }
 
+    .blast{
+        content: url('../images/blast.gif');
+        height:200px;
+        object-fit: contain;
+    }
+
     .whitehouse{
         width: 2000px;
         object-fit: contain;
@@ -538,13 +568,32 @@
         top:-20%;
         opacity:1
     }
+    60%{
+        top:100%;
+        opacity:1
+    }
     70%{
         top:110%;
-        opacity:1
+        opacity:0
     }
     100%{
         opacity:0;
         top:110%;
+    }
+  }
+
+  @keyframes blast {
+    0%{
+        display:none;
+    }
+    40%{
+        display: block;
+    }
+    45%{
+        display: none;
+    }
+    100%{
+        display: none;
     }
   }
 
