@@ -9,7 +9,7 @@ export type HowtobuyType = {
   className?: string;
 };
 
-const Howtobuy: FunctionComponent<HowtobuyType> = ({ className = "" }) => {
+const Howtobuy: FunctionComponent<HowtobuyType> = () => {
 
   const screen=useScreen();
 

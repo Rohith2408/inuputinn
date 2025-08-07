@@ -1,24 +1,24 @@
 import "./Tokenomics.css";
-import {  useRef } from "react";
-import image1 from '../images/Tokenomics/1.png'
-import image2 from '../images/Tokenomics/2.png'
-import image3 from '../images/Tokenomics/3.png'
-import image4 from '../images/Tokenomics/4.png'
-import icon from '../images/Tokenomics/icon.png'
+// import {  useRef } from "react";
+// import image1 from '../images/Tokenomics/1.png'
+// import image2 from '../images/Tokenomics/2.png'
+// import image3 from '../images/Tokenomics/3.png'
+// import image4 from '../images/Tokenomics/4.png'
+//import icon from '../images/Tokenomics/icon.png'
 import banner from '../images/banner.png'
 import suitcase_1 from '../images/Tokenomics/suitcase.png'
 import suitcase_2 from '../images/Tokenomics/suitcase2.png'
 import suitcase_3 from '../images/Tokenomics/suitcase3.png'
-import bg from '../images/Tokenomics/bg.png'
+// import bg from '../images/Tokenomics/bg.png'
 
 const Tokenomics=()=>{
 
-    const data=useRef([
-        {title:"0%",subTitle:"Buy/Sell Tax",image:image1},
-        {title:"1bn",subTitle:"Token Supply",image:image2},
-        {title:"0%",subTitle:"Token Distribution",image:image3},
-        {title:"LP Locked",subTitle:"Contract Renounced",image:image4}
-    ]).current
+    // const data=useRef([
+    //     {title:"0%",subTitle:"Buy/Sell Tax",image:image1},
+    //     {title:"1bn",subTitle:"Token Supply",image:image2},
+    //     {title:"0%",subTitle:"Token Distribution",image:image3},
+    //     {title:"LP Locked",subTitle:"Contract Renounced",image:image4}
+    // ]).current
 
     return(
         <section className="mainwrapper flexbox padding-wrapper">
