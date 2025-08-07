@@ -2,7 +2,7 @@ import './App.css';
 import Section1 from './components/Section1';
 import About from './components/About';
 import Memes from './components/Memes';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Tokenomics from './components/Tokenomics';
 import Howtobuy from './components/Howtobuy';
 
