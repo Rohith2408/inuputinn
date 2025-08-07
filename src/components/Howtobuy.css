@@ -85,7 +85,7 @@
   color: white;
     font-family: "TBB";
     margin: 0;
-    -webkit-text-stroke: 7px #1B3B7C;
+    -webkit-text-stroke: 5px #002774;
 }
 
 .htb_card{
@@ -215,7 +215,7 @@
 
 @media screen and (min-width:1025px) {
     .htb-title{
-      font-size: 130px;
+      font-size: 100px;
       height: 30%;
     }
 

@@ -1,6 +1,7 @@
 import styles from "./About.module.css";
 import image from '../images/About/image.png'
 import { useEffect, useRef, useState } from "react";
+import banner from '../images/banner.gif'
 
 const About=()=>{
 
@@ -49,8 +50,8 @@ const About=()=>{
 
     return(
         <section ref={elementRef} className={styles.mainwrapper} id="section2" data-scroll-to="section2">
-            <div className={styles.subwrapper}>
-                {/* <img className={styles.banner} src={banner}/> */}
+            <div className={styles.subwrapper+" padding-wrapper"}>
+                <img className={styles.banner} src={banner}/>
                 <div className={styles.image_wrapper}><img src={image} className={styles.image}/></div>
                 <div className={styles.body_wrapper} style={{backgroundColor:"rgba(0,0,0,0.4)"}}>
                     <p className={styles.title} style={{color:"white"}}>The Meme Coin That Goes Nuclear!</p>

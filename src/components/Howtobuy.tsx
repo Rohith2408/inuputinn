@@ -19,7 +19,7 @@ const Howtobuy: FunctionComponent<HowtobuyType> = () => {
 
   return (
     <section className="htb-mainwrapper fullwidth flexbox-row padding-wrapper" id="how-to-buy" data-scroll-to="how-to-buy">
-      <div className="flexbox-column fullwidth">
+      <div className="flexbox-column fullwidth section-gap padding-wrapper">
           <span className={"htb-title"}>How To Buy</span>
           <div className="flexbox-column fullwidth padding-wrapper section-gap">
             <div className={`flexbox-${(screen=="laptop"||screen=="pc")?"row":"column"} fullwidth section-gap`}>

@@ -6,7 +6,7 @@ import image3 from '../images/memes/3.jpg'
 import image4 from '../images/memes/4.jpg'
 import image5 from '../images/memes/5.jpg'
 import image6 from '../images/memes/6.jpg'
-
+import banner from '../images/banner.gif'
 
 const Memes=()=>{
 
@@ -17,7 +17,7 @@ const Memes=()=>{
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
                 <div className={styles.body}>
-                    {/* <img className={styles.banner} src={banner}/> */}
+                    <img className={styles.banner} src={banner}/>
                     <p className={styles.title}>Memes</p>
                     <div className={styles.imageswrapper}>
                     {

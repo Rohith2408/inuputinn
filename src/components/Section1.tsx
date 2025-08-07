@@ -30,7 +30,8 @@ const Section1=()=>{
             setSocialIcons([
               { src: twitter_icon, link: currentWebsite?.data?.sociallinks?.x },
               { src: dex_icon, link: currentWebsite?.data?.sociallinks?.dexscreener},
-              { src:dextools_icon, link: currentWebsite?.data?.sociallinks?.telegram},
+              { src:dextools_icon, link: currentWebsite?.data?.sociallinks?.dextools},
+              { src:telegram_icon, link: currentWebsite?.data?.sociallinks?.telegram},
             ]);
             setCa(currentWebsite.data.ca);
           }
