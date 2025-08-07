@@ -67,10 +67,45 @@
     z-index: 1;
   }
 
+  .bomb1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(-1);
+    animation: bunny 3s ease-in infinite;
+  }
+  .bomb2{
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    transform: scaleX(-1);
+    animation: bunny 3s ease-in infinite;
+  }
+  .bomb3{
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    animation: bunny 3s ease-in infinite;
+  }
+  .bomb4{
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    animation: bunny 3s  ease-in infinite;
+  }
+
+  .blast{
+    position: absolute;
+    bottom: -7%;
+    left: -5%;
+    animation:blast 3s  infinite;
+    animation-delay: 1.7s;
+  }
+
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height: 740px;
+        /* max-height: 740px; */
         min-height: 700px;
     }
 
@@ -117,12 +152,24 @@
         top: -10px;
     }
 
+    .bomb1,.bomb2,.bomb3,.bomb4{
+        content: url('../images/Section1/bomb.png');
+        height:70px;
+        object-fit: contain;
+    }
+
+    .blast{
+        content: url('../images/blast.gif');
+        height:170px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:501px) and (max-width:1023px) {
 
     .mainwrapper{
-        max-height: 980px;
+        /* max-height: 980px; */
         min-height: 900px;
     }
 
@@ -169,12 +216,24 @@
         top: -20px;
     }
 
+    .bomb1,.bomb2,.bomb3,.bomb4{
+        content: url('../images/Section1/bomb.png');
+        height:70px;
+        object-fit: contain;
+    }
+
+    .blast{
+        content: url('../images/blast.gif');
+        height:170px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:1024px) and (max-width:1920px) {
 
     .mainwrapper{
-        max-height: 880px;
+        /* max-height: 880px; */
         min-height: 800px;
     }
 
@@ -220,12 +279,24 @@
         top: -40px;
     }
 
+    .bomb1,.bomb2,.bomb3,.bomb4{
+        content: url('../images/Section1/bomb.png');
+        height:120px;
+        object-fit: contain;
+    }
+
+    .blast{
+        content: url('../images/blast.gif');
+        height:300px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:1921px){
 
     .mainwrapper{
-        max-height: 1080px;
+        /* max-height: 1080px; */
         min-height: 1000px;
     }
 
@@ -267,20 +338,64 @@
         top: -55px;
     }
 
+    .bomb1,.bomb2,.bomb3,.bomb4{
+        content: url('../images/Section1/bomb.png');
+        height:120px;
+        object-fit: contain;
+    }
+
+    .blast{
+        content: url('../images/blast.gif');
+        height:300px;
+        object-fit: contain;
+    }
+
   }
+
+  @keyframes bunny2 {
+    0%{
+        top:100%
+    }
+    50%{
+        top:0
+    }
+    100%{
+        top:100%
+    }
+  }
+
 
   @keyframes bunny {
     0%{
-        transform: translateX(-150%);
+        top:-20%;
+        opacity:1
     }
-    30%{
-        transform: translateX(0%);
+    60%{
+        top:100%;
+        opacity:1
     }
-    50%{
-        transform: translateX(0%);
+    70%{
+        top:110%;
+        opacity:0
     }
     100%{
-        transform: translateX(-150%);
+        opacity:0;
+        top:110%;
+    }
+  }
+
+  @keyframes blast {
+    0%{
+        display:none;
+    }
+    40%{
+        display: block;
+    }
+    45%{
+        display: none;
+    }
+    100%{
+        display: none;
     }
   }
 

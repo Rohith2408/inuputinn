@@ -50,7 +50,7 @@ const About=()=>{
 
     return(
         <section ref={elementRef} className={styles.mainwrapper} id="section2" data-scroll-to="section2">
-            <div className={styles.subwrapper+" padding-wrapper"}>
+            <div className={styles.subwrapper+" padding-wrapper"} style={{position:'relative'}}>
                 <img className={styles.banner} src={banner}/>
                 <div className={styles.image_wrapper}><img src={image} className={styles.image}/></div>
                 <div className={styles.body_wrapper} style={{backgroundColor:"rgba(0,0,0,0.4)"}}>
@@ -59,6 +59,8 @@ const About=()=>{
                     InuPutin isn’t just another memecoin — it’s a regime. Born from the unholy fusion of Shiba Inu chaos and iron-fisted control, InuPutin rules the blockchain with an iron paw. Decentralization? That’s cute. This is authoritarian tokenomics at its finest — no mercy, no democracy, just pure, meme-fueled domination. Bow, bark, or be banished. The era of InuPutin has begun.
                     </p>
                 </div>
+                <img className={styles.bomb1}/>
+                <img className={styles.blast}/>
             </div>
         </section>
     )

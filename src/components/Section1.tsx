@@ -65,10 +65,11 @@ const Section1=()=>{
                 </div>
                 <img className={styles.penguin}/>
                 <img className={styles.bomb1}/>
+                <img className={styles.blast}/>
                 {/* <img className={styles.bomb2}/>
                 <img className={styles.bomb3}/>
                 <img className={styles.bomb4}/> */}
-                <img className={styles.blast}/>
+                
                 {/* <img src={whitehouse_image} className={styles.whitehouse}/> */}
             </div>
         </section>
