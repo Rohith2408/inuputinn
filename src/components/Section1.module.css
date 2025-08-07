@@ -50,7 +50,7 @@
 
   .title{
     color: #D52B1E;
-    font-family: "comicjungleextrude";
+    font-family: "comictoon";
     margin: 0;
     -webkit-text-stroke: 0px #D52B1E;
   }
@@ -166,7 +166,7 @@
     .mainwrapper{
         max-height: 550px;
         min-height: 530px;
-        background-image: url("../images/Section1/bg.png");
+        background-image:url("../images/Section1/bg_mobile.png");
     }
 
     .subwrapper{
@@ -256,7 +256,7 @@
     .mainwrapper{
         max-height: 880px;
         min-height: 800px;
-        background-image: url("../images/Section1/bg.png");
+        background-image: url("../images/Section1/bg_mobile.png");
     }
 
     .subwrapper{

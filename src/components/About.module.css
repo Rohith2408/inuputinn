@@ -93,6 +93,7 @@
 
     .image_wrapper{
         width: 100%;
+        display: none;
     }
 
     .image{
@@ -144,6 +145,7 @@
 
     .image_wrapper{
         width: 100%;
+        display: none;
     }
 
     .image{
@@ -195,6 +197,7 @@
 
     .image_wrapper{
         width: 50%;
+        visibility: hidden;
     }
 
     .image{
@@ -239,6 +242,7 @@
 
     .image_wrapper{
         width: 50%;
+        visibility: hidden;
     }
 
     .image{
