@@ -54,9 +54,9 @@ const About=()=>{
                 <img className={styles.banner} src={banner}/>
                 <div className={styles.image_wrapper}><img src={image} className={styles.image}/></div>
                 <div className={styles.body_wrapper} style={{backgroundColor:"rgba(0,0,0,0.4)"}}>
-                    <p className={styles.title} style={{color:"white"}}>The Meme Coin That Goes Nuclear!</p>
+                    <p className={styles.title} style={{color:"white"}}>The Tsar Of MemeCoins</p>
                     <p className={styles.text} style={{color:"white"}}>
-                    Inuputin is not just another meme coin — it’s a full-scale meme offensive. Born in the rubble of traditional tokens and powered by raw satire, Inuputin aims to nuke the meme coin game with explosions of hype, humor, and high-risk gains.
+                    InuPutin isn’t just another memecoin — it’s a regime. Born from the unholy fusion of Shiba Inu chaos and iron-fisted control, InuPutin rules the blockchain with an iron paw. Decentralization? That’s cute. This is authoritarian tokenomics at its finest — no mercy, no democracy, just pure, meme-fueled domination. Bow, bark, or be banished. The era of InuPutin has begun.
                     </p>
                 </div>
             </div>
