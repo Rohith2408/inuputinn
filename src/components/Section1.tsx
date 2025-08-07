@@ -14,7 +14,7 @@ const Section1=()=>{
         { src:dex_icon, link: "" },
         { src:telegram_icon, link: "" },
       ]);
-      const [ca,setCa]=useState("TBA")
+    const [ca,setCa]=useState("TBA")
     const [currentbg]=useState(0)
 
     useEffect(()=>{
@@ -42,14 +42,13 @@ const Section1=()=>{
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
                 <div className={styles.body}>
-                    {/* <img className={styles.banner} src={banner}/> */}
                     <p className={styles.title}>$INUPUTIN</p>
                     <div className={styles.socialWrapper}>
                     {
                         socialIcons.map((icon) => (
                             <a key={icon.src} href={icon.link} target="_blank" rel="noopener noreferrer" >
                                 <img
-                                    className={styles.socialicons}
+                                    className={styles.socialicons+" img-fit"}
                                     loading="lazy"
                                     alt=""
                                     src={icon.src}

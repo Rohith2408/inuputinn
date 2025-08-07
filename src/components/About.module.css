@@ -45,10 +45,17 @@
   }
 
   .title{
-    color: #ffecd3;
-    font-family: "comictoon";
+    color: #D12C04;
+    font-family: "TBB";
     margin: 0;
-    /* -webkit-text-stroke: 5px black; */
+    -webkit-text-stroke: 5px white;
+  }
+
+  .title2{
+    color: #ffecd3;
+    font-family: "tbb";
+    margin: 0;
+    text-align: start;
   }
 
   .text{
@@ -101,6 +108,19 @@
     animation-delay: 1.7s;
   }
 
+  .copyWrapper{
+    margin: 0;
+    background-color: transparent;
+    border: none;
+  }
+
+  .socialWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
   @media screen and (max-width:500px) {
 
     .mainwrapper{
@@ -123,6 +143,7 @@
     .body_wrapper{
         width: 100%;
         align-items: center;
+        justify-content: center;
         padding: 30px;
     }
 
@@ -138,6 +159,12 @@
 
     .title{
         font-size:44px;
+        -webkit-text-stroke:2px black;
+    }
+
+    .title2{
+        font-size: 30px;
+        text-align: center;
         -webkit-text-stroke:2px black;
     }
 
@@ -164,6 +191,16 @@
         object-fit: contain;
     }
 
+    .copyIcon{
+        width:12px;
+        height: auto;
+    }
+
+    .socialicons{
+        width: 24px;
+        border-radius: 100px;
+    }
+
   }
 
   @media screen and (min-width:501px) and (max-width:1023px) {
@@ -188,6 +225,7 @@
     .body_wrapper{
         width: 100%;
         align-items: center;
+        justify-content: center;
         padding: 30px;
     }
 
@@ -203,6 +241,12 @@
 
     .title{
         font-size: 56px;
+        -webkit-text-stroke:2px black;
+    }
+
+    .title2{
+        font-size: 34px;
+        text-align: center;
         -webkit-text-stroke:2px black;
     }
 
@@ -227,6 +271,16 @@
         content: url('../images/blast.gif');
         height:170px;
         object-fit: contain;
+    }
+
+    .copyIcon{
+        width:14px;
+        height: auto;
+    }
+
+    .socialicons{
+        width:40px;
+        border-radius: 100px;
     }
 
   }
@@ -270,6 +324,12 @@
         font-size: 70px;
     }
 
+    .title2{
+        font-size: 50px;
+        text-align: start;
+        -webkit-text-stroke:2px black;
+    }
+
     .text{
         font-size: 22px;
         line-height:32px;
@@ -291,6 +351,16 @@
         content: url('../images/blast.gif');
         height:300px;
         object-fit: contain;
+    }
+
+    .copyIcon{
+        width:20px;
+        height: auto;
+    }
+
+    .socialicons{
+        width:44px;
+        border-radius: 100px;
     }
 
   }
@@ -330,6 +400,12 @@
         -webkit-text-stroke:2px black;
     }
 
+    .title2{
+        font-size: 70px;
+        text-align: start;
+        -webkit-text-stroke:2px black;
+    }
+
     .text{
         font-size: 28px;
         line-height:48px;
@@ -351,6 +427,16 @@
         content: url('../images/blast.gif');
         height:300px;
         object-fit: contain;
+    }
+
+    .copyIcon{
+        width:26px;
+        height: auto;
+    }
+
+    .socialicons{
+        width:60px;
+        border-radius: 100px;
     }
 
   }
